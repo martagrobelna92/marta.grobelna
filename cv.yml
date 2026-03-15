@@ -1,0 +1,40 @@
+---
+name: Marta Grobelna
+position: Software Engineer
+
+resume:
+  summary: "Enthusiastic software engineer with passion for developing innovative programs."
+  skills:
+    - programming languages:
+        - Python
+        - JavaScript
+        - Ruby
+    - web technologies:
+        - HTML
+        - CSS
+        - React
+
+  experience:
+    - job_title: Software Engineer
+      company: Tech Company
+      date: 2023 - Present
+      description: "Developing software solutions."
+
+    - job_title: Intern
+      company: Startup
+      date: 2021 - 2022
+      description: "Assisted in web development."  
+
+  education:
+    - university: Some University
+      degree: BSc in Computer Science
+      date: 2017 - 2021
+
+  projects:
+    - name: Portfolio Website
+      description: "A personal portfolio to showcase projects."
+      link: https://example.com/portfolio
+    - name: Weather App
+      description: "A web app to display weather information."
+      link: https://example.com/weather
+---
