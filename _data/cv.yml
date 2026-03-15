@@ -118,6 +118,9 @@ cv:
         summary: "Basic knowledge"
 
     Interests:
+      - name: Bouldering
+        summary: I am regularly bouldering in my home climbing gym.
+
       - name: Cycling
         summary: I enjoy cycling in my free time. In my free time I love going on long bike rides in the nature. Almost every year I go on a multi-day bike trip with my friends and/or family, where we explore new places and enjoy the nature.
 
@@ -128,7 +131,7 @@ cv:
         summary: I love water sports, and kite surfing is one of my favorite activities.
 
       - name: Reading
-        summary: I especially enjoy reading fantasy novels, and books about expeditions and adventures. 
+        summary: I especially enjoy reading fantasy novels, and books about expeditions and adventures. From time to time I also read non-fiction books, especially about history and science.
 
 
 
