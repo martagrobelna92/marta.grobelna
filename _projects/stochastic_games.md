@@ -2,7 +2,7 @@
 layout: page
 title: Concurrent Stochastic Games
 description: Research project on concurrent stochastic games
-img: assets/img/at_logo2.jpg
+img: assets/img/CSG.jpg
 importance: 1
 category: work
 related_publications: true
