@@ -5,112 +5,96 @@ title: teaching
 description: Courses taught.
 nav: true
 nav_order: 6
-calendar: false
 ---
 
 This page contains details about the courses I taught at the Technical University of Munich, as well as the theses I have been supervising to date.
 
-
-Courses
--------
+## Courses
 
 <details>
 <summary><b>Winter Semester 2025/2026</b> (Click to expand details)</summary>
+<br>
 
-Discrete Structures (Teaching Assistant)
-----------------------------------------
+### Discrete Structures (Lead Teaching Assistant)
 *Mandatory foundational course for ~800 Computer Science undergraduates.*
 
-Discrete Structures is a mandatory foundational math course for all first-semester computer science students at TUM. This semester, Prof. Stefanie Jegelka was responsible for the course, and we had approximately 800 registrations. I was responsible for organizing the exercises (i.e., how many classes we needed, when, and where they should be held) and coordinating a group of about 20 students who taught the Discrete Structures classes. Additionally, I prepared the exercise sheets and maintained the course platforms (Moodle and TUMexam).
+Discrete Structures is a mandatory foundational math course for all first-semester computer science students at TUM. This semester, Prof. Stefanie Jegelka was responsible for the course, and we had approximately 800 registrations. 
 
-Seminar: Model Checking Stochastic Games (Instructor)
------------------------------------------------------
+* **Leadership:** I coordinated a group of **20 student instructors** and managed the logistical organization of all exercise sessions.
+* **Content & Platforms:** I prepared technical exercise sheets and maintained the course platforms (**Moodle** and **TUMexam**).
+
+### Seminar: Model Checking Stochastic Games (Instructor)
 *Advanced research seminar focused on formal verification.*
 
-This is a seminar for six students that I am directly supervising. Each student is assigned a scientific paper related to the verification of stochastic games. The students have to write a report to be submitted at the end of the semester, as well as give a short presentation of the paper.
+I directly supervise six students, guiding them through the analysis of scientific papers related to the verification of stochastic games. Students synthesize their findings into a final report and technical presentation.
 
 </details>
 
----
-
 <details>
 <summary><b>Summer Semester 2025</b></summary>
+<br>
 
-Seminar: Model Checking Stochastic Games (Instructor)
------------------------------------------------------
+### Seminar: Model Checking Stochastic Games (Instructor)
 *Advanced research seminar focused on formal verification.*
 
-This is a seminar for six students that I am directly supervising. Each student is assigned a scientific paper related to the verification of stochastic games. The students have to write a report to be submitted at the end of the semester, as well as give a short presentation of the paper.
-
+Direct supervision of six students focusing on scientific reporting and presentation of research in stochastic game verification.
 </details>
 
 <details>
 <summary><b>Winter Semester 2024/2025</b></summary>
+<br>
 
-Seminar: Model Checking Stochastic Games (Instructor)
------------------------------------------------------
-*Advanced research seminar focused on formal verification.*
+### Seminar: Model Checking Stochastic Games (Instructor)
+### Seminar: Recent Advances in the Verification of Neural Networks
+*Advanced research seminars focusing on formal verification.*
 
-This is a seminar for six students that I am directly supervising. Each student is assigned a scientific paper related to the verification of stochastic games. The students have to write a report to be submitted at the end of the semester, as well as give a short presentation of the paper.
-
-Seminar: Recent Advances in the Verification of Neural Networks
----------------------------------------------------------------
-*Advanced research seminar focused on verification of neural networks.*
-
-This is a seminar for six students that I am directly supervising. Each student is assigned a scientific paper related to the verification of stochastic games. The students have to write a report to be submitted at the end of the semester, as well as give a short presentation of the paper.
-
+Supervised 12 students across two seminars, focusing on stochastic games and the emerging field of **Neural Network verification**.
 </details>
 
 <details>
-<summary><b>Summer Semester 2024</b> </summary>
+<summary><b>Summer Semester 2024</b></summary>
+<br>
 
-Classes in "Introduction to Theoretical Computer Science"
----------------------------------------------------------
+### Introduction to Theoretical Computer Science (Tutor)
 *Mandatory course for fourth-semester Computer Science undergraduates.*
 
-I was teaching basic automata theory to a group of about 15 students.
-
+Taught foundational **Automata Theory** and formal languages to a group of 15 students.
 </details>
 
-Thesis
-------
+---
+
+## Thesis Supervision
 
 <details>
-<summary><b>Winter Semester 2025/2026</b> (Click to expand details)</summary>
+<summary><b>Winter Semester 2025/2026</b></summary>
+<br>
 
-Automatic Generation of Exercises of DFA Construction in Automata Tutor (Bachelor thesis)
------------------------------------------------------------------------------------------
-*Faculty of Informatics, Masaryk University Brno, Czech Republic*
-
-
-Modular and Scalable Architecture for Automata Tutor (Bachelor thesis)
-----------------------------------------------------------------------
-*Faculty of Informatics, Masaryk University Brno, Czech Republic*
-
+* **Automatic Generation of Exercises of DFA Construction in Automata Tutor** (Bachelor Thesis)  
+  *Faculty of Informatics, Masaryk University Brno*
+* **Modular and Scalable Architecture for Automata Tutor** (Bachelor Thesis)  
+  *Faculty of Informatics, Masaryk University Brno*
 </details>
 
 <details>
-<summary><b>Winter Semester 2024/2025</b> </summary>
+<summary><b>Winter Semester 2024/2025</b></summary>
+<br>
 
-Logic Constrained Multi-dimensional Reward Optimization in Stochastic Games (Master thesis)
--------------------------------------------------------------------------------------------
-*Technical University of Munich*
-
+* **Logic Constrained Multi-dimensional Reward Optimization in Stochastic Games** (Master Thesis)  
+  *Technical University of Munich*
 </details>
 
 <details>
-<summary><b>Summer Semester 2024</b> </summary>
+<summary><b>Summer Semester 2024</b></summary>
+<br>
 
-Quadratic-programming-aided Value Iteration Algorithm for Concurrent Stochastic Games (Bachelor thesis)
--------------------------------------------------------------------------------------------------------
-*Technical University of Munich*
+* **Quadratic-programming-aided Value Iteration Algorithm for Concurrent Stochastic Games** (Bachelor Thesis)  
+  *Technical University of Munich*
 </details>
 
-
 <details>
-<summary><b>Summer Semester 2023</b> </summary>
+<summary><b>Summer Semester 2023</b></summary>
+<br>
 
-Development and Integration of a Database for Automata Tutor (Master thesis)
-----------------------------------------------------------------------------
-*Technical University of Munich*
+* **Development and Integration of a Database for Automata Tutor** (Master Thesis)  
+  *Technical University of Munich*
 </details>
