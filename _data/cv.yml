@@ -19,8 +19,9 @@ cv:
 
   sections:
     Education:
-        - institution: technical University of Munich
-          position: PhD Student
+        - institution: Technical University of Munich
+          studyType: PhD
+          area: Computer Science
           location: Munich, Germany
           start_date: 2022
           end_date: present
@@ -31,9 +32,9 @@ cv:
           studyType: Bachelor of Science and Master of Science
           start_date: 2013      
           end_date: 2019
-            highlights:
-              - Bachelor thesis: "Solving Pseud-Boolean Constraints" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)
-              - Master thesis: “Integration of hybrid systems verification methods in Matlab” (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)
+          highlights:
+            - 'Bachelor thesis: "Solving Pseud-Boolean Constraints" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)'
+            - 'Master thesis: "Integration of hybrid systems verification methods in Matlab" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)'
 
 
     Experience:
@@ -42,9 +43,9 @@ cv:
         location: Munich, Germany
         start_date: 2019
         end_date: 2022  
-        summary: I was working on multiple industrial research projects, searhing for solutions for safety related problems especially in the area of autonomous driving. I was responsible for the development of software for the verification of safety of overtaking maneuvers on highways. I was also involved in a project related to the verification of sensor fusion algorithms for autonomous driving.
+        summary: I was working on multiple industrial research projects, searching for solutions for safety related problems especially in the area of autonomous driving. I was responsible for the development of software for the verification of safety of overtaking maneuvers on highways. I was also involved in a project related to the verification of sensor fusion algorithms for autonomous driving.
         highlights:
-          - Paper: "Dynamic risk management for safely automating connected driving maneuvers" (link:https://publica.fraunhofer.de/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/download)
+          - 'Paper: "Dynamic risk management for safely automating connected driving maneuvers" (link:https://publica.fraunhofer.de/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/download)'
 
 
 
@@ -55,6 +56,12 @@ cv:
         end_date: 2019
 
 
+    Projects:
+      - name: Automata Tutor
+        summary: Automata Tutor is a web-based tool for learning automata theory. It provides a large collection of exercises on various topics in automata theory, such as regular languages, context-free languages, and Turing machines. The tool allows students to practice their skills by solving exercises and receiving immediate feedback on their solutions. It also provides a platform for instructors to create and manage their own exercises and assignments.
+        link: https://automata-tutor.live-lab.fi.muni.cz
+        start_date: 01-09-2022
+        end_date: present
 
 
     Publications:
@@ -63,15 +70,8 @@ cv:
           - Marta Grobelna, Jan Kretinsky, and Maximilian Weininger
         conference: LICS 2025
         url: https://arxiv.org/pdf/2505.21087?
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, we consider two-player zero-sum concurrent stochastic games (CSGs) played on graphs with reachability and safety
+        summary: |
+          In this paper, we consider two-player zero-sum concurrent stochastic games (CSGs) played on graphs with reachability and safety
           objectives. These include degenerate classes such as Markov
           decision processes or turn-based stochastic games, which can be
           solved by linear or quadratic programming; however, in practice,
@@ -81,19 +81,17 @@ cv:
           theoretical solution via the existential theory of reals.
           VI starts with an under-approximation of the sought values for
           each state and iteratively updates them, traditionally terminating
-          once two consecutive approximations are ϵ-close. However, this
+          once two consecutive approximations are epsilon-close. However, this
           stopping criterion lacks guarantees on the precision of the
           approximation, which is the goal of this work. We provide bounded
           (a.k.a. interval) VI for CSGs: it complements standard VI with a
           converging sequence of over-approximations and terminates once
-          the over- and under-approximations are ϵ-close.
+          the over- and under-approximations are epsilon-close.
+
 
 
 
     Skills:
-      - name: 
-        level: Expert
-        keywords: "Algorithmic, Web development, Scripting"
       - name: Git
         level: Expert
         keywords: "Version control, Collaboration, Branching, Merging"
@@ -135,10 +133,5 @@ cv:
 
 
 
-    Projects:
-      - name: Automata Tutor
-        summary: Automata Tutor is a web-based tool for learning automata theory. It provides a large collection of exercises on various topics in automata theory, such as regular languages, context-free languages, and Turing machines. The tool allows students to practice their skills by solving exercises and receiving immediate feedback on their solutions. It also provides a platform for instructors to create and manage their own exercises and assignments.
-        link: https://automata-tutor.live-lab.fi.muni.cz
-        start_date: 01-09-2022
-        end_date: present
+
 
