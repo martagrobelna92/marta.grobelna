@@ -208,6 +208,8 @@ exclude:
   - _pages/blog.md
   - _pages/.repositories.md
   - _pages/social.md
+  - _pages/dropdown.md
+  - _pages/people.md
   - _posts/
   - _projects/?_project.md
   - assets/jupyter/blog.ipynb
