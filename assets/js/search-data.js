@@ -47,6 +47,11 @@ ninja.data = [{
           description: "Web app for teaching automata theory",
           section: "Projects",handler: () => {
               window.location.href = "/marta.grobelna/projects/automata_tutor/";
+            },},{id: "projects-concurrent-stochastic-games",
+          title: 'Concurrent Stochastic Games',
+          description: "Research project on concurrent stochastic games",
+          section: "Projects",handler: () => {
+              window.location.href = "/marta.grobelna/projects/stochastic_games/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
