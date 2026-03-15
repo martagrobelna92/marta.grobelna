@@ -30,11 +30,19 @@ cv:
           location: Aachen, Germany
           area: Computer Science
           studyType: Bachelor of Science and Master of Science
-          start_date: 2013      
+          start_date: 2017      
           end_date: 2019
           highlights:
-            - 'Bachelor thesis: "Solving Pseud-Boolean Constraints" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)'
             - 'Master thesis: "Integration of hybrid systems verification methods in Matlab" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)'
+
+        - institution: RWTH Aachen University
+          location: Aachen, Germany
+          area: Computer Science
+          studyType: Bachelor of Science
+          start_date: 2013      
+          end_date: 2017
+          highlights:
+            - 'Bachelor thesis: "Solving Pseud-Boolean Constraints" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)'
 
 
     Experience:
