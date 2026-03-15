@@ -1,123 +1,68 @@
 cv:
-  name: Albert Einstein
+  name: Marta Grobelna
   label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  email: marta.grobelna@tum.de
+  location: Munich, Germany
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: I am a PhD student at the Technical University of Munich, working on algorithms for stochastic games. I am particularly interested in concurrent stochastic games played on graphs, and the synthesis of controllers for such games. I have a strong background in theoretical computer science and have many years of experience in developing software. My experience is not limited to the development of research code. Since years I am developing one of the most popular teaching tools for learning automata theory, called Automata Tutor. 
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: Marta Grobelna
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: Boltzmannstr. 3
+    city: Garching bei München
+    region: Bavaria
+    postalCode: 85748
+    countryCode: Germany
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        - institution: technical University of Munich
+          position: PhD Student
+          location: Munich, Germany
+          start_date: 2022
+          end_date: present
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+        - institution: RWTH Aachen University
+          location: Aachen, Germany
+          area: Computer Science
+          studyType: Bachelor of Science and Master of Science
+          start_date: 2013      
+          end_date: 2019
+            highlights:
+              - Bachelor thesis: "Solving Pseud-Boolean Constraints" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)
+              - Master thesis: “Integration of hybrid systems verification methods in Matlab” (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)
+
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: Fraunhofer Institute for Cognitive Systems IKS
+        position: Researcher/ PhD Student
+        location: Munich, Germany
+        start_date: 2019
+        end_date: 2022  
+        summary: I was working on multiple industrial research projects, searhing for solutions for safety related problems especially in the area of autonomous driving. I was responsible for the development of software for the verification of safety of overtaking maneuvers on highways. I was also involved in a project related to the verification of sensor fusion algorithms for autonomous driving.
         highlights:
-          - Relativity
-          - Description 2.
+          - Paper: "Dynamic risk management for safely automating connected driving maneuvers" (link:https://publica.fraunhofer.de/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/download)
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: RWTH Aachen University
+        position: Student Research Assistant
+        location: Aachen, Germany
+        start_date: 2019  
+        end_date: 2019
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Stopping Criteria for Value Iteration on Concurrent Stochastic Reachability and Safety Games"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+          - Marta Grobelna, Jan Kretinsky, and Maximilian Weininger
+        conference: LICS 2025
+        url: https://arxiv.org/pdf/2505.21087?
         summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
       - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
@@ -126,64 +71,71 @@ cv:
         publisher: Annalen der Physik
         releaseDate: 1905-03-18
         url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+        summary: In the second paper, we consider two-player zero-sum concurrent stochastic games (CSGs) played on graphs with reachability and safety
+          objectives. These include degenerate classes such as Markov
+          decision processes or turn-based stochastic games, which can be
+          solved by linear or quadratic programming; however, in practice,
+          value iteration (VI) outperforms the other approaches and is the
+          most implemented method. Similarly, for CSGs, this practical
+          performance makes VI an attractive alternative to the standard
+          theoretical solution via the existential theory of reals.
+          VI starts with an under-approximation of the sought values for
+          each state and iteratively updates them, traditionally terminating
+          once two consecutive approximations are ϵ-close. However, this
+          stopping criterion lacks guarantees on the precision of the
+          approximation, which is the goal of this work. We provide bounded
+          (a.k.a. interval) VI for CSGs: it complements standard VI with a
+          converging sequence of over-approximations and terminates once
+          the over- and under-approximations are ϵ-close.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: 
+        level: Expert
+        keywords: "Algorithmic, Web development, Scripting"
+      - name: Git
+        level: Expert
+        keywords: "Version control, Collaboration, Branching, Merging"
+      - name: Python
+        level: Expert
+        keywords: "Algorithmic, Web development, Scripting"
 
     Languages:
-      - name: German
+      - name: Polish
         summary: "Native speaker"
+      
+      - name: German
+        summary: "Second language, fluent"
 
       - name: English
         summary: "Fluent"
 
+      - name: Spanish
+        summary: "Basic knowledge"
+
+      - name: Norwegian
+        summary: "Basic knowledge"
+
     Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Cycling
+        summary: I enjoy cycling in my free time. In my free time I love going on long bike rides in the nature. Almost every year I go on a multi-day bike trip with my friends and/or family, where we explore new places and enjoy the nature.
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+      - name: Hiking
+        summary: I enjoy long and demanding hikes in the mountains. I find it very rewarding to reach the summit of a mountain and enjoy the view from there. I also like to go on multi-day hiking trips, where I can explore new trails and enjoy the nature.
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+      - name: Kite surfing
+        summary: I love water sports, and kite surfing is one of my favorite activities.
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - name: Reading
+        summary: I especially enjoy reading fantasy novels, and books about expeditions and adventures. 
+
+
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Automata Tutor
+        summary: Automata Tutor is a web-based tool for learning automata theory. It provides a large collection of exercises on various topics in automata theory, such as regular languages, context-free languages, and Turing machines. The tool allows students to practice their skills by solving exercises and receiving immediate feedback on their solutions. It also provides a platform for instructors to create and manage their own exercises and assignments.
+        link: https://automata-tutor.live-lab.fi.muni.cz
+        start_date: 01-09-2022
+        end_date: present
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
