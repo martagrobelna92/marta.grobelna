@@ -31,8 +31,8 @@ ninja.data = [{
             window.location.href = "/marta.grobelna/cv/";
           },
         },{id: "nav-teaching",
-          title: "teaching",
-          description: "Courses taught.",
+          title: "Teaching",
+          description: "Courses taught and theses supervised at the Technical University of Munich.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/marta.grobelna/teaching/";
