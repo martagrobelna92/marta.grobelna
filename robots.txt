@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://marta.grobelna92.github.io/marta.grobelna/sitemap.xml
+Sitemap: https://www.marta-grobelna.com/sitemap.xml
