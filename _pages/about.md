@@ -14,6 +14,8 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am currently pursuing a PhD under the supervision of Prof. Jan Kretinsky at the Technical University of Munich. My research focuses on algorithms for stochastic games on graphs. 
+I am a researcher in formal verification and algorithmic analysis at the Technical University of Munich, working under the supervision of [Prof. Jan Kretinsky](https://live-lab.fi.muni.cz/jan-kretinsky.html).
 
-Prior to this, I worked as a Research Associate at the Fraunhofer Institute for Cognitive Systems (IKS) in Munich, where I was involved in several industry projects related to the safety of autonomous driving.
+My work focuses on stochastic games, verification algorithms, and the analysis of complex systems under uncertainty, with an emphasis on translating theoretical models into practical methods and software tools.
+
+Previously, I worked at the Fraunhofer Institute for Cognitive Systems (IKS), contributing to industry projects on the safety and reliability of autonomous driving systems in collaboration with BMW and Huawei.
