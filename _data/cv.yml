@@ -73,7 +73,7 @@ cv:
     Projects:
       - name: Automata Tutor
         summary: Automata Tutor is a web-based tool for learning automata theory. It provides a large collection of exercises on various topics in automata theory, such as regular languages, context-free languages, and Turing machines. The tool allows students to practice their skills by solving exercises and receiving immediate feedback on their solutions. It also provides a platform for instructors to create and manage their own exercises and assignments.
-        link: https://automata-tutor.live-lab.fi.muni.cz
+        url: https://automata-tutor.live-lab.fi.muni.cz
         start_date: 01-09-2022
         end_date: present
 
