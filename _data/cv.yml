@@ -4,7 +4,7 @@ cv:
   email: marta.grobelna@tum.de
   location: Munich, Germany
   image: ""
-  summary: I am a PhD student at the Technical University of Munich, working on algorithms for stochastic games. I am particularly interested in concurrent stochastic games played on graphs, and the synthesis of controllers for such games. I have a strong background in theoretical computer science and have many years of experience in developing software. My experience is not limited to the development of research code. Since years I am developing one of the most popular teaching tools for learning automata theory, called Automata Tutor. 
+  summary: I am a formal verification researcher at the Technical University of Munich, working on algorithms for stochastic games. I am particularly interested in concurrent stochastic games played on graphs, and the synthesis of controllers for such games. I have a strong background in theoretical computer science and have many years of experience in developing software. My experience is not limited to the development of research code. Since years I am developing one of the most popular teaching tools for learning automata theory, called Automata Tutor. 
 
   social_networks:
     - network: LinkedIn
