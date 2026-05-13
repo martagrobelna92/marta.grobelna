@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD candidate at Technical University of Munich
+subtitle: Formal Verification Researcher at Technical University of Munich
 
 profile:
   align: right
