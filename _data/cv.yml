@@ -46,6 +46,12 @@ cv:
 
 
     Experience:
+      - company: Technical University of Munich
+        position: Formal Verification Researcher
+        location: Munich, Germany
+        start_date: 2022
+        end_date: present
+        
       - company: Fraunhofer Institute for Cognitive Systems (IKS)
         position: Researcher
         location: Munich, Germany
