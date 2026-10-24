@@ -7,7 +7,7 @@ cv:
 
   sections:
     Profile:
-      - "Doctoral researcher at the Technical University of Munich developing algorithms for concurrent stochastic games and Markov decision processes with formal precision guarantees. I independently developed, proved correct, and implemented a novel value-iteration algorithm in the Java-based PRISM model checker, using linear and quadratic programming (AMPL, Gurobi) as core tools. At Fraunhofer IKS, I translated industry customers' goals (BMW, Huawei) into mathematical models and working prototypes, and I maintain and migrate a production Python web platform (Automata Tutor). I am looking to move from academia to industry, and I look forward to working on challenging real-world problems."
+      - "Doctoral researcher at the Technical University of Munich developing algorithms for concurrent stochastic games and Markov decision processes with formal precision guarantees. I independently developed, proved correct, and implemented a novel value-iteration algorithm in the Java-based PRISM model checker, using linear and quadratic programming (AMPL, Gurobi) as core tools. At Fraunhofer IKS, I translated industry customers' goals (BMW, Huawei) into mathematical models and working prototypes, and I maintain and migrate a production Python web platform (Automata Tutor). Next, I want to bring this experience to industry and tackle challenging real-world problems."
 
     Experience:
       - company: Technical University of Munich (TUM)

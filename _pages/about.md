@@ -22,6 +22,6 @@ Alongside my research, I lead the modernization of [Automata Tutor]({{ '/project
 
 Before my PhD, I worked at the Fraunhofer Institute for Cognitive Systems (IKS) on industry projects with BMW and Huawei. There, I turned questions about the safety of autonomous driving into precise mathematical problems and delivered software prototypes.
 
-I will finish my PhD in early 2027. I am looking to move from academia to industry, and I look forward to working on challenging real-world problems. Feel free to [get in touch](mailto:marta.grobelna@tum.de) or have a look at my [CV]({{ '/cv/' | relative_url }}).
+I will finish my PhD in early 2027. Next, I want to bring this experience to industry and tackle challenging real-world problems. Feel free to [get in touch](mailto:marta.grobelna@tum.de) or have a look at my [CV]({{ '/cv/' | relative_url }}).
 
 Outside of work, you will find me bouldering, cycling, hiking in the mountains or playing guitar.
