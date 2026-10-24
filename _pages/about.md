@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Formal Verification Researcher at Technical University of Munich
+subtitle: Doctoral Researcher in Algorithm Development at the Technical University of Munich
 
 profile:
   align: right
@@ -14,8 +14,14 @@ social: true # includes social icons at the bottom of the page
 
 ---
 
-I am a researcher in formal verification and algorithmic analysis at the Technical University of Munich, working under the supervision of [Prof. Jan Kretinsky](https://live-lab.fi.muni.cz/jan-kretinsky.html).
+I am a doctoral researcher at the Technical University of Munich, supervised by [Prof. Jan Křetínský](https://live-lab.fi.muni.cz/jan-kretinsky.html). I design algorithms for decision-making under uncertainty, with formal guarantees on how precise their answers are, and I turn them into working software.
 
-My work focuses on stochastic games, verification algorithms, and the analysis of complex systems under uncertainty, with an emphasis on translating theoretical models into practical methods and software tools.
+My research focuses on concurrent stochastic games and Markov decision processes, which model systems where several agents act at the same time and chance plays a role. I developed the first value-iteration algorithm for concurrent stochastic games with guaranteed precision ([LICS 2025](https://arxiv.org/pdf/2505.21087)) and implemented it in the PRISM model checker, using AMPL and Gurobi to solve the underlying optimization problems. You can read more on the [project page]({{ '/projects/stochastic_games/' | relative_url }}).
 
-Previously, I worked at the Fraunhofer Institute for Cognitive Systems (IKS), contributing to industry projects on the safety and reliability of autonomous driving systems in collaboration with BMW and Huawei.
+Alongside my research, I lead the modernization of [Automata Tutor]({{ '/projects/automata_tutor/' | relative_url }}), a web platform that grades exercises in automata theory automatically and has been used by thousands of students worldwide. I rebuilt its frontend in Python/Flask, moved it to a new database and set up its testing and monitoring.
+
+Before my PhD, I worked at the Fraunhofer Institute for Cognitive Systems (IKS) on industry projects with BMW and Huawei. There, I turned questions about the safety of autonomous driving into precise mathematical problems and delivered software prototypes.
+
+I will finish my PhD in early 2027. I am looking to move from academia to industry, and I look forward to working on challenging real-world problems. Feel free to [get in touch](mailto:marta.grobelna@tum.de) or have a look at my [CV]({{ '/cv/' | relative_url }}).
+
+Outside of work, you will find me bouldering, cycling, hiking in the mountains or playing guitar.

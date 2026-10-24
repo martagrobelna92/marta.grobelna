@@ -1,12 +1,43 @@
 ---
 ---
-@article{lics25,
-  selected={true},
+@inproceedings{lics25,
+  selected    = {true},
   bibtex_show = {true},
-  title       = {Stopping Criteria for Value Iteration on Concurrent
-Stochastic Reachability and Safety Games},
-  author      = {Grobelna, Marta and Kretinsky, Jan and Weininger, Maximilian},
+  abbr        = {LICS},
+  title       = {Stopping Criteria for Value Iteration on Concurrent Stochastic Reachability and Safety Games},
+  author      = {Grobelna, Marta and K{\v{r}}et{\'i}nsk{\'{y}}, Jan and Weininger, Maximilian},
+  booktitle   = {40th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)},
+  pages       = {568--580},
   year        = {2025},
-  publisher   = {LICS}
+  publisher   = {IEEE},
+  doi         = {10.1109/LICS65433.2025.00049},
+  arxiv       = {2505.21087},
+  slides      = {slides/LICS_2025.pdf},
+  abstract    = {We consider two-player zero-sum concurrent stochastic games (CSGs) played on graphs with reachability and safety objectives. These include degenerate classes such as Markov decision processes or turn-based stochastic games, which can be solved by linear or quadratic programming; however, in practice, value iteration (VI) outperforms the other approaches and is the most implemented method. Similarly, for CSGs, this practical performance makes VI an attractive alternative to the standard theoretical solution via the existential theory of reals. VI starts with an under-approximation of the sought values for each state and iteratively updates them, traditionally terminating once two consecutive approximations are epsilon-close. However, this stopping criterion lacks guarantees on the precision of the approximation, which is the goal of this work. We provide bounded (a.k.a. interval) VI for CSGs: it complements standard VI with a converging sequence of over-approximations and terminates once the over- and under-approximations are epsilon-close.}
 }
 
+@inproceedings{edcc21,
+  selected    = {true},
+  bibtex_show = {true},
+  abbr        = {EDCC},
+  title       = {Dynamic Risk Management for Safely Automating Connected Driving Maneuvers},
+  author      = {Grobelna, Marta and Zacchi, Joao-Vitor and Schleiss, Philipp and Burton, Simon},
+  booktitle   = {17th European Dependable Computing Conference (EDCC)},
+  pages       = {9--16},
+  year        = {2021},
+  publisher   = {IEEE},
+  doi         = {10.1109/EDCC53658.2021.00009},
+  pdf         = {https://publica-rest.fraunhofer.de/server/api/core/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/content}
+}
+
+@techreport{its21,
+  bibtex_show = {true},
+  abbr        = {White paper},
+  title       = {Trustworthy {AI} for Intelligent Traffic Systems ({ITS})},
+  author      = {Bortoli, Stefano and Grossi, Margherita and Burton, Simon and Grobelna, Marta and Hagawara, Yuki and Schlei{\ss}, Philipp},
+  institution = {Fraunhofer Institute for Cognitive Systems IKS, in cooperation with the Huawei Research Center Munich},
+  year        = {2021},
+  pdf         = {https://publica-rest.fraunhofer.de/server/api/core/bitstreams/47a07ed4-a7a9-4396-9d25-a11f1ebc849f/content},
+  html        = {https://www.iks.fraunhofer.de/en/publications/whitepapers-studies/whitepaper-trustworthy-ai-intelligent-traffic-systems.html},
+  abstract    = {AI-enabled Intelligent Traffic Systems (ITS) offer the potential to greatly improve the efficiency of traffic flow in inner cities, resulting in shorter travel times, increased fuel efficiency and reduction in harmful emissions. This white paper summarizes the results of consultations between safety, mobility and smart city experts, held as a roundtable event hosted by Fraunhofer IKS on 1 July 2021, and describes current and future challenges of introducing AI into Intelligent Traffic Systems in a trustworthy manner.}
+}

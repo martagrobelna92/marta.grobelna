@@ -1,154 +1,158 @@
 cv:
   name: Marta Grobelna
-  label: Formal Verification Researcher
-  email: marta.grobelna@tum.de
+  headline: Doctoral Researcher, Algorithm Development and Optimization
   location: Munich, Germany
-  image: ""
-  summary: I am a formal verification researcher at the Technical University of Munich, working on algorithms for stochastic games. I am particularly interested in concurrent stochastic games played on graphs, and the synthesis of controllers for such games. I have a strong background in theoretical computer science and have many years of experience in developing software. My experience is not limited to the development of research code. Since years I am developing one of the most popular teaching tools for learning automata theory, called Automata Tutor. 
-
-  social_networks:
-    - network: LinkedIn
-      username: Marta Grobelna
-
-  address:
-    street: Boltzmannstr. 3
-    city: Garching bei München
-    region: Bavaria
-    postalCode: 85748
-    countryCode: Germany
+  email: marta.grobelna@tum.de
+  website: https://www.marta-grobelna.com
 
   sections:
-    Education:
-        - institution: Technical University of Munich
-          studyType: PhD
-          area: Computer Science
-          location: Munich, Germany
-          start_date: 2022
-          end_date: present
-
-        - institution: RWTH Aachen University
-          location: Aachen, Germany
-          area: Computer Science
-          studyType: Master of Science
-          start_date: 2017      
-          end_date: 2019
-          highlights:
-            - 'Master thesis: "Integration of hybrid systems verification methods in Matlab" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)'
-
-        - institution: RWTH Aachen University
-          location: Aachen, Germany
-          area: Computer Science
-          studyType: Bachelor of Science
-          start_date: 2013      
-          end_date: 2017
-          highlights:
-            - 'Bachelor thesis: "Solving Pseud-Boolean Constraints" (link:https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)'
-
+    Profile:
+      - "Doctoral researcher at the Technical University of Munich developing algorithms for concurrent stochastic games and Markov decision processes with formal precision guarantees. I independently developed, proved correct, and implemented a novel value-iteration algorithm in the Java-based PRISM model checker, using linear and quadratic programming (AMPL, Gurobi) as core tools. At Fraunhofer IKS, I translated industry customers' goals (BMW, Huawei) into mathematical models and working prototypes, and I maintain and migrate a production Python web platform (Automata Tutor). I am looking to move from academia to industry, and I look forward to working on challenging real-world problems."
 
     Experience:
-      - company: Technical University of Munich
-        position: Formal Verification Researcher
+      - company: Technical University of Munich (TUM)
+        position: Doctoral Researcher, Algorithm Development
         location: Munich, Germany
-        start_date: 2022
+        start_date: 2022-09
         end_date: present
-        
-      - company: Fraunhofer Institute for Cognitive Systems (IKS)
-        position: Research Associate
-        location: Munich, Germany
-        start_date: 2019
-        end_date: 2022  
-        summary: I was working on multiple industrial research projects, searching for solutions for safety related problems especially in the area of autonomous driving. I was responsible for the development of software for the verification of safety of overtaking maneuvers on highways. I was also involved in a project related to the verification of sensor fusion algorithms for autonomous driving.
         highlights:
-          - 'Paper: "Dynamic risk management for safely automating connected driving maneuvers" (link:https://publica.fraunhofer.de/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/download)'
+          - Design algorithms for stochastic games and Markov decision processes (MDPs), combining mathematical analysis, correctness proofs, software implementation, and computational evaluation.
+          - Independently designed, proved correct, and implemented in Java the first value-iteration algorithm for concurrent stochastic games with guaranteed precision for maximum-reachability objectives, and integrated it into the PRISM probabilistic model checker ([LICS 2025](https://arxiv.org/pdf/2505.21087)).
+          - Formulated optimization problems arising from concurrent stochastic games in AMPL and solved them using Gurobi and other optimizers through the AMPL Java API.
+          - Co-authored a paper on hot-starting and incremental value iteration for MDPs that reuses previous results when a model changes, with formal precision guarantees (under review).
+          - Currently developing bounded strategy iteration and a new quadratic-programming formulation for concurrent stochastic games, and extending the methods to partially observable MDPs (POMDPs).
 
-
+      - company: Fraunhofer Institute for Cognitive Systems (IKS)
+        position: Research Associate, Applied R&D for Autonomous Systems
+        location: Munich, Germany
+        start_date: 2019-12
+        end_date: 2022-08
+        highlights:
+          - "BMW project: worked directly with the customer to turn the question \"is this overtaking maneuver safe?\" into a precise mathematical problem (reachable-set computation from vehicle dynamics via flow-pipe construction, checking safety constraints specified in temporal logic for hybrid automata). Delivered a software prototype and was first author of the resulting EDCC 2021 paper."
+          - "Huawei project: analyzed safety properties of sensor-fusion algorithms for autonomous driving and contributed to the white paper *Trustworthy AI for Intelligent Traffic Systems*."
+          - Coordinated work packages, clarified customer requirements, and presented results to industry stakeholders.
 
       - company: RWTH Aachen University
-        position: Student Research Assistant
+        position: Student Assistant, Software and Verification Tools
         location: Aachen, Germany
-        start_date: 2019  
-        end_date: 2019
+        start_date: 2018-10
+        end_date: 2019-08
+        highlights:
+          - Benchmarked verification tools and contributed C++ implementation and project documentation.
 
+    Technical Skills:
+      - label: Programming
+        details: Python (primary), Java, C++, MATLAB
+      - label: Optimization
+        details: Linear programming (LP), quadratic programming (QP), AMPL, Gurobi and other solvers, hot-starting and incremental algorithms
+      - label: Modeling
+        details: Stochastic games, Markov decision processes (MDPs), value and strategy iteration
+      - label: Engineering
+        details: Git, CI/CD, pytest, Flask, MySQL, Docker, Linux, Bash, integration into existing codebases, automated testing, AI-assisted development (Claude Code)
+      - label: Domain expertise
+        details: Formal verification, probabilistic model checking, multi-agent systems, safety-critical autonomous systems, partially observable MDPs (POMDPs)
 
     Projects:
       - name: Automata Tutor
-        summary: Automata Tutor is a web-based tool for learning automata theory. It provides a large collection of exercises on various topics in automata theory, such as regular languages, context-free languages, and Turing machines. The tool allows students to practice their skills by solving exercises and receiving immediate feedback on their solutions. It also provides a platform for instructors to create and manage their own exercises and assignments.
         url: https://automata-tutor.live-lab.fi.muni.cz
-        start_date: 01-09-2022
+        start_date: 2022
         end_date: present
-
+        summary: Web-based platform for automated assessment of exercises in automata theory (Python/Flask, MySQL, pytest, CI/CD).
+        highlights:
+          - Re-implemented the entire frontend in Python/Flask and migrated the database from H2 to MySQL, including a redesign of the SQL schema.
+          - Built the automated test infrastructure (pytest fixtures, mock databases) within a collaborative Git and CI/CD workflow.
+          - Currently guiding students through the migration of the backend.
 
     Publications:
-      - title: "Stopping Criteria for Value Iteration on Concurrent Stochastic Reachability and Safety Games"
+      - title: Stopping Criteria for Value Iteration on Concurrent Stochastic Reachability and Safety Games
         authors:
-          - Marta Grobelna, Jan Kretinsky, and Maximilian Weininger
-        conference: LICS 2025
-        url: https://arxiv.org/pdf/2505.21087?
-        summary: |
-          In this paper, we consider two-player zero-sum concurrent stochastic games (CSGs) played on graphs with reachability and safety
-          objectives. These include degenerate classes such as Markov
-          decision processes or turn-based stochastic games, which can be
-          solved by linear or quadratic programming; however, in practice,
-          value iteration (VI) outperforms the other approaches and is the
-          most implemented method. Similarly, for CSGs, this practical
-          performance makes VI an attractive alternative to the standard
-          theoretical solution via the existential theory of reals.
-          VI starts with an under-approximation of the sought values for
-          each state and iteratively updates them, traditionally terminating
-          once two consecutive approximations are epsilon-close. However, this
-          stopping criterion lacks guarantees on the precision of the
-          approximation, which is the goal of this work. We provide bounded
-          (a.k.a. interval) VI for CSGs: it complements standard VI with a
-          converging sequence of over-approximations and terminates once
-          the over- and under-approximations are epsilon-close.
+          - "**Marta Grobelna**"
+          - Jan Křetínský
+          - Maximilian Weininger
+        journal: LICS 2025
+        date: 2025
+        url: https://arxiv.org/pdf/2505.21087
+        link: https://arxiv.org/pdf/2505.21087
 
+      - title: Dynamic Risk Management for Safely Automating Connected Driving Maneuvers
+        authors:
+          - "**Marta Grobelna**"
+          - Joao-Vitor Zacchi
+          - Philipp Schleiss
+          - Simon Burton
+        journal: EDCC 2021
+        date: 2021
+        url: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/content
+        link: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/745945b8-63c6-4afc-829d-de3165cf4af1/content
 
+      - title: Trustworthy AI for Intelligent Traffic Systems (ITS)
+        authors:
+          - Stefano Bortoli
+          - Margherita Grossi
+          - Simon Burton
+          - "**Marta Grobelna**"
+          - Yuki Hagawara
+          - Philipp Schleiß
+        journal: Fraunhofer IKS white paper
+        date: 2021
+        url: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/47a07ed4-a7a9-4396-9d25-a11f1ebc849f/content
+        link: https://publica-rest.fraunhofer.de/server/api/core/bitstreams/47a07ed4-a7a9-4396-9d25-a11f1ebc849f/content
 
+    Education:
+      - institution: Technical University of Munich
+        area: Computer Science
+        degree: PhD
+        location: Munich, Germany
+        start_date: 2022-09
+        end_date: present
+        highlights:
+          - Expected completion in February 2027.
 
-    Skills:
-      - name: Git
-        level: Expert
-        keywords: "Version control, Collaboration, Branching, Merging"
-      - name: Python
-        level: Expert
-        keywords: "Algorithmic, Web development, Scripting"
+      - institution: RWTH Aachen University
+        area: Computer Science
+        degree: M.Sc.
+        location: Aachen, Germany
+        start_date: 2017
+        end_date: 2019
+        highlights:
+          - "Master's thesis: [Integration of hybrid systems verification methods in Matlab](https://ths.rwth-aachen.de/wp-content/uploads/sites/4/groblena_master.pdf)"
+
+      - institution: RWTH Aachen University
+        area: Computer Science
+        degree: B.Sc.
+        location: Aachen, Germany
+        start_date: 2013
+        end_date: 2017
+        highlights:
+          - "Bachelor's thesis: [Solving Pseudo-Boolean Constraints](https://ths.rwth-aachen.de/wp-content/uploads/sites/4/teaching/theses/grobelna_bachelor.pdf)"
+
+    Leadership and Teaching:
+      - bullet: Coordinated approximately 15 teaching assistants for a university course with 750+ students.
+      - bullet: "Supervised four Bachelor's and two Master's theses."
+      - bullet: Regularly present my research at international conferences.
 
     Languages:
-      - name: Polish
-        summary: "Native speaker"
-      
-      - name: German
-        summary: "Native speaker"
+      - label: German
+        details: Native
+      - label: Polish
+        details: Native
+      - label: English
+        details: Fluent
+      - label: Spanish
+        details: Basic
+      - label: Norwegian
+        details: Basic
 
-      - name: English
-        summary: "Fluent"
-
-      - name: Spanish
-        summary: "Basic knowledge"
-
-      - name: Norwegian
-        summary: "Basic knowledge"
-
-    Interests:
-      - name: Bouldering
-        keywords: I am regularly bouldering in my home climbing gym.
-
-      - name: Cycling
-        keywords: I enjoy cycling in my free time. In my free time, I love going on long bike rides in nature. Almost every year I go on a multi-day bike trip with my friends and/or family, where we explore new places and enjoy the nature.
-
-      - name: Hiking
-        keywords: I enjoy long and demanding hikes in the mountains. I find it very rewarding to reach the summit of a mountain and enjoy the view from there. I also like to go on multi-day hiking trips, where I can explore new trails and enjoy nature.
-
-      - name: Music
-        keywords: I have been playing the guitar since I was 13 and drums for 2 years. My favorite genre is Metal. 
-
-      - name: Kite surfing
-        keywords: I love water sports, and kite surfing is one of my favorite activities.
-
-      - name: Reading
-        keywords: I especially enjoy reading fantasy novels and books about expeditions and adventures. From time to time, I also read non-fiction books about history and science.
-
-
-
-
-
+    Personal Interests:
+      - label: Bouldering
+        details: Regular sessions at my home climbing gym.
+      - label: Cycling
+        details: Long rides in nature and a multi-day bike trip with friends or family almost every year.
+      - label: Hiking
+        details: Long, demanding mountain hikes and multi-day trekking trips.
+      - label: Music
+        details: Playing guitar since I was 13 and drums for two years, mostly metal.
+      - label: Kitesurfing
+        details: One of my favorite water sports.
+      - label: Reading
+        details: Fantasy novels, books about expeditions, and non-fiction on history and science.

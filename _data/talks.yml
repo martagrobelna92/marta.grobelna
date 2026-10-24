@@ -1,0 +1,37 @@
+# Talks, newest first.
+# Put slide PDFs in assets/pdf/slides/ and give the file name under "slides".
+# "paper" and "video" are optional links. Use "when" to replace the shown date, e.g. when the exact day is unknown.
+
+- title: Stopping Criterion for Strategy Improvement on Concurrent Stochastic Games
+  event: Highlights of Logic, Games and Automata 2026
+  location: Vienna, Austria
+  date: 2026-09-07
+  when: September 2026
+  type: Conference talk
+  slides: Highlights_2026.pdf
+
+- title: Stopping Criteria for Value Iteration on Concurrent Stochastic Reachability and Safety Games
+  event: Highlights of Logic, Games and Automata 2025
+  location: Saarbrücken, Germany
+  date: 2025-09-01
+  when: September 2025
+  type: Conference talk
+  slides: Highlights_2025.pdf
+  paper: https://arxiv.org/abs/2505.21087
+
+- title: Stopping Criteria for Value Iteration for Concurrent Stochastic Reachability and Safety Games
+  event: 40th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2025)
+  location: Singapore
+  date: 2025-06-25
+  type: Conference talk
+  slides: LICS_2025.pdf
+  paper: https://arxiv.org/abs/2505.21087
+
+- title: Stopping Criteria for Value Iteration for Concurrent Stochastic Reachability and Safety Games
+  event: ROCKS Workshop 2025
+  location: Eindhoven, Netherlands
+  date: 2025-03-31
+  when: Week of 31 March 2025
+  type: Workshop talk
+  slides: ROCKS_2025.pdf
+  paper: https://arxiv.org/abs/2505.21087
